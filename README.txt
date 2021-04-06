@@ -6,7 +6,7 @@
 
 -----------------------------------------
 ## 1. Porting NetBSD Userland to MINIX 3 
-Searching for a project, I stumbled upon the `MINIX3` Google summer of code site. It seems that `MINIX` has not participated since 2018, but I found that the documentation for the years past contained many clues as to what projects can be done. [Google Summer of Code 2013](https://wiki.minix3.org/doku.php?id=soc:2013:projects) stuck out the most, particularly the section on porting standard network utilities from `netBSD`. After searching I found a full page on how one might [port from netBSD](https://wiki.minix3.org/doku.php?id=developersguide:portingnetbsduserland).
+Searching for a project I stumbled upon the `MINIX3` Google summer of code site. It seems that `MINIX` has not participated since 2018, but I found that the documentation for the years past contained many clues as to what projects can be done. [Google Summer of Code 2013](https://wiki.minix3.org/doku.php?id=soc:2013:projects) stuck out the most, particularly the section on porting standard network utilities from `netBSD`. After searching I found a full page on how one might [port from netBSD](https://wiki.minix3.org/doku.php?id=developersguide:portingnetbsduserland).
 
 The documentation has a list of all the programs that have already been ported. I think the hardest part about this task would be finding a worthwhile program that hasn't already been ported. I was able to clone the `netBSD` source code to my `MINIX3` virtual machine. I ran a plethora of shell commands in order to rule out all the program which have already been ported. It seems `libc` has already been completely ported. I looked at `/usr/src/usr.sbin` as well. I hope I did this correctly.
 
