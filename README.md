@@ -1,4 +1,4 @@
- ICS 612 Project 5
+Project 5
  ==================
  [Project Guidelines](http://www2.hawaii.edu/~esb/2021spring.ics612/project5.html)
 
